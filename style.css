@@ -1,0 +1,71 @@
+body{
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;  
+    min-width: 100vw;
+    background-color:#f5f5f5;
+    background-image: url("");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgb(40, 23, 23)
+}
+header .col-4{
+    max-width: 50%;
+   border-bottom: 2px black solid;
+    margin-left: 33%;
+
+}
+main{
+   flex-grow: 1;
+}
+
+.click-btn{
+    cursor: crosshair;
+    background-color: transparent;
+    max-width: 30%;
+    max-height: 40%;
+    min-width: 20%;
+    min-height: 20%;
+    border-radius: 70%;
+    transition: ease-out 500ms;
+    position: relative;
+}
+
+
+#inv{
+    background-image: url("");
+    background-size:contain;
+    border-bottom:2px black solid ;
+}
+
+.click-btn:active{
+    border: 15px #87973982 solid;
+    transition: all 500ms;
+
+    
+}.click-btn:hover{
+    outline: 2px rgba(255, 255, 255, 0.363) double;
+    transition: all 500ms;
+    }
+
+    .click-btn-up{
+        cursor: crosshair;
+        background-color: transparent;
+        max-width: 30%;
+        max-height: 40%;
+        min-width: 20%;
+        min-height: 20%;
+        border-radius: 20%;
+        transition: ease-out 500ms;
+        
+    }
+
+    .click-btn-up:active{
+        border:10px rgba(54, 70, 252, 0.508) solid;
+        transition: all 300ms;
+    
+        
+    }.click-btn-up:hover{
+        outline: 8px rgba(0, 0, 0, 0.642) double;
+        transition: all 300ms;
+        }

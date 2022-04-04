@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class=" p-4"><div class="row"><div class="col-4 text-center"><h1>Herbalist Simulator</h1></div></div></header>
+    
+    
+    <main>
+        <div class="row">
+            
+            <div class="col mx-5 mt-5"> 
+                <div class="p-3" id="inv">
+                    <h1> All Assets </h1>
+                    <h2 id = "score-count"></h1>
+                    <h3 id="per-click"></h3>
+                    <h3 id="per-sec"></h3>
+                    <h3 id="total"></h3>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div>
+                   
+                </div>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="container text-center">
+                    <p id="normal-herb">Pick Herbs</p>
+                        <img class="container click-btn btn" src="leaf.png" alt="" onclick="scoreClick()"> 
+                </div>
+              
+            </div>
+           
+        </div>
+    </div>
+    <div class="container-fluid pt-5">
+        <div class="row justify-content-center">
+            
+                <div class="col-md-2 mx-2 my-5">
+
+                    <div class="">
+                        <h4>Gloves</h4>
+                        <p id="passive1">Total: 0</p>
+                        <img class="container click-btn-up btn" src="https://www.kindpng.com/picc/m/178-1781874_gloves-gloves-icon-transparent-png-png-download.png" alt="" onclick="clickUpgrade('gloves')"> 
+                        
+                    </div>
+                    </div>
+                <div class="col-md-2 mx-2 my-5">
+                    <div class="">
+                        <h4>Basket</h4>
+                        <p id="passive2">Total: 0</p>
+                        <div class="position-abosulte">
+                        <img class="container click-btn-up btn" src="https://cdn-icons-png.flaticon.com/512/287/287624.png" alt="" onclick="clickUpgrade('basket')"> 
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2 my-5">
+                    
+                    <div class="">
+                        <h4>Hire Gatherer</h4>
+                        <p id="passive3">Total: 0</p>
+                       <img class="container click-btn-up btn" src="https://www.kindpng.com/picc/m/352-3521109_agricultural-agriculture-insurance-crop-insurance-icon-hd-png.png" alt="" onclick="shopUpgrade('hireWorker')"> 
+                        
+                    </div>
+                    </div>  
+                <div class="col-md-2 mx-2 my-5">
+                    <div class="">
+                        <h4>Second Store</h4>
+                        <p id="passive4">Total: 0</p>
+                        <img class="container click-btn-up btn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZg31hPOcrknQfpv1QWpogm3b9gp8MFSwhwpGrNk58XRoyM_99uXbJ3-r76ngk8G3rTmw&usqp=CAU" alt="" onclick="shopUpgrade('secondStore')"> 
+                        
+                    </div>    
+                </div>
+    </div>
+</div>
+    </main>
+
+    <footer class="text-center p-4">Made with ♥️ by Me</footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
