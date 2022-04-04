@@ -39,12 +39,12 @@ function scoreClick(){
 }
 
 function drawScores(){
-    document.getElementById('score-count').innerHTML = `Score ${score}`
+    document.getElementById('score-count').innerHTML = `Herbs ${score}`
     document.getElementById('passive1').innerHTML = `CLICKS + ${clickUpgrades.gloves.quantity + 1}<br> PRICE: ${clickUpgrades.gloves.price} TOTAL:  ${clickUpgrades.gloves.quantity}`
     document.getElementById('passive2').innerHTML = `CLICKS X 2 <br> PRICE: ${clickUpgrades.basket.price} TOTAL:  ${clickUpgrades.basket.quantity}`
     document.getElementById('passive3').innerHTML = `HERBS/1s + ${shopUpgrades.hireWorker.quantity + 1}<br> PRICE: ${shopUpgrades.hireWorker.price} TOTAL:  ${shopUpgrades.hireWorker.quantity}`
     document.getElementById('passive4').innerHTML = `INCREASE HERBS/s <br> PRICE: ${shopUpgrades.secondStore.price} TOTAL:  ${shopUpgrades.secondStore.quantity}`
-    document.getElementById('total').innerHTML = `Life Time Herbs : ${allClicks}`
+    document.getElementById('total').innerHTML = `life-time herbs : ${allClicks}`
     document.getElementById('per-click').innerHTML = `Per Click: ${clickMod}`
     document.getElementById('per-sec').innerHTML = `herbs/1s: : ${passive}`
     document.getElementById('normal-herb').innerHTML = `Pick Herbs : + ${clickMod} herbs `

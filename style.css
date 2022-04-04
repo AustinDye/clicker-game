@@ -7,7 +7,9 @@ body{
     background-image: url("");
     background-size: cover;
     background-repeat: no-repeat;
-    color:rgb(40, 23, 23)
+    color:rgb(40, 23, 23);
+    font-family: 'Aclonica', sans-serif;
+
 }
 header .col-4{
     max-width: 50%;
@@ -42,13 +44,13 @@ main{
     border: 15px #87973982 solid;
     transition: all 500ms;
 
-    
-}.click-btn:hover{
+}
+.click-btn:hover{
     outline: 2px rgba(255, 255, 255, 0.363) double;
     transition: all 500ms;
-    }
+}
 
-    .click-btn-up{
+.click-btn-up{
         cursor: crosshair;
         background-color: transparent;
         max-width: 30%;
@@ -57,15 +59,19 @@ main{
         min-height: 20%;
         border-radius: 20%;
         transition: ease-out 500ms;
+        border-right: 2px black solid;
+        border-bottom: 2px black solid;
         
-    }
+}
 
-    .click-btn-up:active{
+.click-btn-up:active{
         border:10px rgba(54, 70, 252, 0.508) solid;
         transition: all 300ms;
     
         
-    }.click-btn-up:hover{
+}
+
+.click-btn-up:hover{
         outline: 8px rgba(0, 0, 0, 0.642) double;
         transition: all 300ms;
-        }
+}
